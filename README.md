@@ -1,6 +1,8 @@
 # windows-house-website
-## Technologies that i used
--> HTML
--> SCSS
--> JavaScript(ES6)
--> Gulp
+#### Technologies that i used
+> - HTML
+> - SCSS
+> - JavaScript(ES6)
+> - Gulp
+> - Git
+
