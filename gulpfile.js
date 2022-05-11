@@ -66,22 +66,6 @@ gulp.task('js', function() {
 });
 
 
-
-
-// Sprite -------------> 
-gulp.task('sprite', function (cb) {
-    var spriteData = gulp.src('source/images/icons/*.png').pipe(spritesmith({
-      imgName: 'sprite.png',
-      imgPath: '../images/sprite.png',
-      cssName: 'sprite.scss'
-    }));
-    
-    spriteData.img.pipe(gulp.dest('build/images/'))
-    spriteData.css.pipe(gulp.dest('source/styles/global/'));
-    cb();
-});
-
-
 // Delete ------------> 
 gulp.task('clean', function del(cb) {
     return rimraf('build', cb);
@@ -107,7 +91,7 @@ gulp.task('watch', function() {
 
 gulp.task('default', gulp.series(
     'clean',
-    gulp.parallel('minify', 'autoprefixer', 'styles:compile', 'js', 'sprite', 'copy'),
+    gulp.parallel('minify', 'autoprefixer', 'styles:compile', 'js', 'copy'),
     gulp.parallel('watch', 'server')
     )
 );

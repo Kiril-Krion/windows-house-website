@@ -33,6 +33,7 @@
     "sass": "^1.51.0"
   },
   "dependencies": {
+    "boxicons": "^2.1.2",
     "normalize": "^0.3.1"
   }
 }

@@ -46,6 +46,10 @@
             .hero__advantages-title {
                 margin-top: 25px;
             }
+
+            .garanty {
+                transform: translateY(-6px);
+            }
         }
     }
 
@@ -94,7 +98,7 @@
         .form__checkbox {
             width: 25px;
             height: 25px;
-            background-color: #8a5858;
+            background-color: #E2E2E2;
             border-radius: 3px;
             display: inline;
             border: none;
@@ -102,7 +106,7 @@
 
         .form__label {
             text-align: left;
-            font-family: 'Roboto';
+            font-family: $ff-roboto;
             font-weight: 400;
             font-size: 12px;
             color: #000000;
