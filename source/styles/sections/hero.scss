@@ -3,7 +3,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100%;
+
+    .hero__title {
+        margin-bottom: 40px;
+    }
 
     .first {
         font-family: $ff-roboto;
@@ -31,14 +34,18 @@
     .hero__advantages-items {
         display: flex;
         align-items: center;
-        // justify-content: center;
 
         .hero__advantages-item {
             margin-right: 33px;
-            font-family: 'Roboto';
+            font-family: $ff-roboto;
             font-weight: 400;
             font-size: 14px;
+            line-height: 18px;
             color: #FFFFFF;
+
+            .hero__advantages-title {
+                margin-top: 25px;
+            }
         }
     }
 
