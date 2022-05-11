@@ -19,6 +19,12 @@
             text-decoration: none;
             margin-right: 34px;
         }
+
+        .nav__link.link-active {
+            color: #EF7F04;
+            border-top: 4px solid #EF7F04;
+            padding-top: 26px;
+        }
     }
     .nav__button {
         font-family: $ff-roboto;

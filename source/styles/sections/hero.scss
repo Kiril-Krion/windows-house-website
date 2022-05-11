@@ -1,0 +1,118 @@
+.hero {
+    background-image: url('../../images/hero-section.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+
+    .first {
+        font-family: $ff-roboto;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: #EF7F04;
+    }
+    .second {
+        font-family: $ff-roboto;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 36px;
+        line-height: 42px;
+        color: #FFFFFF;
+    }
+    .hero__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .hero__advantages-items {
+        display: flex;
+        align-items: center;
+        // justify-content: center;
+
+        .hero__advantages-item {
+            margin-right: 33px;
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 14px;
+            color: #FFFFFF;
+        }
+    }
+
+    .hero__form {
+        text-align: center;
+        width: 406px;
+        height: 428px;
+        background: #FFFFFF;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        margin: 69px 0 67px 0;
+        
+        .form__title {
+            font-family: $ff-roboto;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+            color: #2F2F51;
+            margin: 43px 0 27px 0;
+        }
+
+        .form__input {
+            width: 322.5px;
+            height: 40px;
+            background: #E2E2E2;
+            border-radius: 3px;
+            margin-bottom: 17px;
+            border: none;
+            outline: none;
+            padding: 12px 0 16px;
+            font-family: $ff-roboto;
+            font-weight: 400;
+            font-size: 14px;
+            color: #424268;
+            padding: 12px 0 12px 16px;
+        }
+
+        .form__confident {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 25px;
+        }
+
+        .form__checkbox {
+            width: 25px;
+            height: 25px;
+            background-color: #8a5858;
+            border-radius: 3px;
+            display: inline;
+            border: none;
+        }
+
+        .form__label {
+            text-align: left;
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 12px;
+            color: #000000;
+            margin-left: 10px;
+        }
+
+        .form__button {
+            font-family: $ff-roboto;
+            font-weight: 700;
+            font-size: 14px;
+            color: #FFFFFF;
+            width: 199px;
+            height: 54.5px;
+            background: #EF7F04;
+            border-radius: 3px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
