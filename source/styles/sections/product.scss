@@ -1,0 +1,138 @@
+.product__windows {
+    max-width: 1145px;
+    margin: 0 auto;
+}
+
+.product__title {
+    font-family: $ff-roboto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2F2F51;
+    text-align: center;
+    padding: 103px 0 42px 0;
+}
+.product__tab-buttons {
+    text-align: center;
+    margin-bottom: 37px;
+
+    .product__tab-button {
+        margin-right: 65px;
+        font-family: $ff-roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #2F2F51;
+        background: none;
+        border: none;
+        cursor: pointer;
+
+        &.is-active {
+            width: 131px;
+            height: 39px;
+            background: #EF7F04;
+            color: #fff;
+            border-radius: 3px;
+        }
+    }
+}
+
+.product__windows-item {
+    background: #fff;
+    border-radius: 3px;
+    display: flex;
+
+    .item__text {
+        margin-left: 35px;
+        .product__windows-title {
+            font-family: $ff-roboto;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 42px;
+            color: #EF7F04;
+            margin-top: 75px;
+            margin-bottom: 50px;
+        }
+
+        .product__windows-desc {
+            font-family: $ff-roboto;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 21px;
+            color: #000000;
+            margin-bottom: 45px;
+        }
+
+        .product__windows-size {
+            font-family: $ff-roboto;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 40px;
+            color: #000000;
+
+            .points {
+                color: #CFCFCF;
+            }
+            .stats {
+                font-weight: 700;
+                color: #2F2F51;
+            }
+        }
+    }
+}
+
+.achivements {
+    margin-top: 54px;
+    background: url('../../images/achivements.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+
+    &__image {
+        padding: 35.5px 0 55px 0;
+    }
+
+    .achivements__items {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-bottom: 50px;
+
+        .achivements__subtitle {
+            margin-top: 38px;
+            font-family: $ff-roboto;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.button {
+    text-align: center;
+
+    .section__button {
+        margin-top: 56px;
+        width: 256px;
+        height: 54.5px;
+        background: #3B3A63;
+        border-radius: 3px;
+        border: none;
+        font-family: $ff-roboto;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    .section__button img {
+        margin-right: 22px;
+        display: inline-block;
+        vertical-align: top;
+        transform: translateY(-1px);
+    }
+}
+
